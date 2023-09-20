@@ -88,7 +88,7 @@ Estos endpoints se han diseñado para proporcionar información a los usuarios y
 
 El código para correr la API dentro de FastAPI se puede visualizar [aquí](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/consultas.py) 
 
-[API](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/API.jpg)
+![API](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/API.jpg)
 
 ## Deployment
 
