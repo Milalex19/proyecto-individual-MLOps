@@ -17,7 +17,7 @@ def train_model(df):
     y = df['price']
     
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-        # Se define el preprocesamiento de las características
+    # Se define el preprocesamiento de las características
     categorical_features = ['genres', 'sentiment']
     numeric_features = ['metascore']
     numeric_transformer = Pipeline(steps=[('scaler', MinMaxScaler())])
