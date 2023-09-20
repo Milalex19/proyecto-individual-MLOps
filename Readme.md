@@ -88,12 +88,14 @@ Estos endpoints se han diseñado para proporcionar información a los usuarios y
 
 El código para correr la API dentro de FastAPI se puede visualizar [aquí](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/consultas.py) 
 
+[API](API.png)
+
 ## Deployment
 
 Para el deploy de la API, se utilizó la plataforma **`Render`**.
 Los datos están listos para ser consumidos y consultados a partir del siguiente link
 
-[Link al Deployment](https://deploy-proyecto-1-henry.onrender.com/docs#/)
+[Link al Deployment](https://deploy-proyecto1.onrender.com/docs#/)
 
 
 
