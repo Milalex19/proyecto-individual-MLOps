@@ -12,7 +12,6 @@
 
 ![Logo](https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png)
 
-<<<<<<< HEAD
 
 ## Descripción del Problema y Contexto
 
@@ -114,7 +113,4 @@ Los datos están listos para ser consumidos y consultados a partir del siguiente
 
 
 ## Video 
-
 Para consultar sobre los pasos del proceso y una explicación es posible acceder al siguiente [enlace]()
-=======
->>>>>>> 1f1e272459fd50e7a6337f20f607cbf6d1d587b1
