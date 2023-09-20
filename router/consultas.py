@@ -54,7 +54,7 @@ async def sentimiento(year: str):
     sentimiento = analyzer.sentiment(year)
     return {"year": year, "sentimiento": sentimiento}
 
-@router.get("/metascore/{year}", description="Consulta los puntajes de los videojuegos para elaño solicitado.\nEl año debe estar en formato YYYY (cuatro dígitos numéricos).")
+@router.get("/metascore/{year}", description="Consulta los videojuegos con mayor puntaje para elaño solicitado.\nEl año debe estar en formato YYYY (cuatro dígitos numéricos).")
 async def metascore(year: str):
     validar_formato_anio(year)
     metascore = analyzer.metascore(year)

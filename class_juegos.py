@@ -48,7 +48,7 @@ class Videojuegos:
 
     def earlyacces(self, anio):
         anio_dt = pd.to_datetime(anio)
-        # Se filtran los datos por el año y por early_access don de su condicion sea True
+        # Se filtran los datos por el año y por early_access donde su condicion sea True
         df_anio_especifico = self.data[(self.data['release_date'].dt.year == anio_dt.year) & (self.data['early_access'] == True)]
         # Se realiza el conteo de los juecon con early_access
         juegos_con_early_access = len(df_anio_especifico)
