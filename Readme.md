@@ -22,7 +22,7 @@ En el contexto actual, la plataforma de juegos Steam ha experimentado un crecimi
 
 ### Datos
 
-Se realizo la extracción de datos de un [dataset](https://github.com/Milalex19/proyecto-individual-MLOps/main/steam_game.json) el mismo se componen de 32135 filas (cada fila contiene un video juego) y 16 columnas (con atributos de cada titulo). 
+Se realizo la extracción de datos de un [dataset](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/steam_games.json) el mismo se componen de 32135 filas (cada fila contiene un video juego) y 16 columnas (con atributos de cada titulo). 
 
 
 
@@ -38,7 +38,7 @@ Comenzamos por transformar los datos en un formato adecuado para el análisis. A
 
 - se eliminaron columnas que no serián utilizadas, publisher, url, discount_price, reviews_url, app_name, tags, developer, id.
 
-Se pueden visualizar las transformaciones y los análisis realizados en el siguiente [archivo](https://github.com/Milalex19/proyecto-individual-MLOps/main/ETL.ipynb)
+Se pueden visualizar las transformaciones y los análisis realizados en el siguiente [archivo](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/ETL.ipynb)
 
 
 
@@ -49,7 +49,7 @@ Realize un análisis exploratorio de los datos para comprender las relaciones en
 Se efectuaron algunas transformaciones adicionales diferentes a las realizadas para la sección de ETL.
 
 Se pueden visualizar las transformaciones y los análisis realizados en el siguiente
-[archivo](https://github.com/Milalex19/proyecto-individual-MLOps/main/EDA.ipynb)
+[archivo](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/EDA.ipynb)
 
 
 
@@ -61,7 +61,7 @@ Se define un preprocesador que escala las características numéricas y codifica
 La función prediction toma el modelo entrenado (trained_model) y los valores de entrada (genero, metascore, sentiment) para realizar una predicción de precio y la raíz del error cuadrático medio (RMSE).
 
 pueden visualizar los códigos realizados en el siguiente
-[archivo](https://github.com/Milalex19/proyecto-individual-MLOps/main/modelo_MLOps.py)
+[archivo](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/modelo_MLOps.py)
 
 
 
@@ -88,7 +88,7 @@ Estos endpoints se han diseñado para proporcionar información a los usuarios y
 
 El código para correr la API dentro de FastAPI se puede visualizar [aquí](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/consultas.py) 
 
-[API](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/API.png)
+[API](https://github.com/Milalex19/proyecto-individual-MLOps/blob/main/API.jpg)
 
 ## Deployment
 
